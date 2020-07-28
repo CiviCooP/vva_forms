@@ -33,12 +33,20 @@ textarea:focus {
   outline: none;
 }
 
+.form-checkbox,
+input[type="radio"]{
+  margin: 0;
+}
+
 .fieldset-legend {
   @extend %inline-block;
   @extend %typ-bold;
   font-family: $heading-font-family;
   margin-bottom: 5px;
   color: #264f9a;
+}
+.form-submit {
+  @extend %button;
 }
 
 input[type="text"],
