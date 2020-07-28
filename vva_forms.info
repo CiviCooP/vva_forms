@@ -2,7 +2,8 @@ name = VvaForms
 description = Theme dedicated to styling the forms like D8 VVA site.
 package = Core
 core = 7.x
+base theme = bartik
 
-stylesheets[all][] = css/styles.css
+stylesheets[all][] = dist/css/styles.css
 
 regions[content] = Content
