@@ -1,0 +1,19 @@
+.button {
+  @extend %button;
+}
+
+.button--large {
+  @extend %button--large;
+}
+
+.button--blue {
+  @extend %button--blue;
+}
+
+.theme-button--blue {
+  @extend %theme-button--blue;
+}
+
+.theme-button--white {
+  @extend %theme-button--white;
+}

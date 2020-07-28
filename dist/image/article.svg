@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icoon artikel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icoon-artikel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M38.6972543,51.5112849 C51.9587529,45.3269223 57.6953046,29.5645973 51.5108993,16.3031902 C45.3275004,3.04077681 29.5650665,-2.6947289 16.3035679,3.48862731 C3.04206928,9.67298993 -2.69548885,25.4333022 3.48891647,38.6957156 C9.67231538,51.9571226 25.4357557,57.6956475 38.6972543,51.5112849" id="Fill-5" fill="#FEFEFE"></path>
+        <path d="M38.6972543,51.5112849 C51.9587529,45.3269223 57.6953046,29.5645973 51.5108993,16.3031902 C45.3275004,3.04077681 29.5650665,-2.6947289 16.3035679,3.48862731 C3.04206928,9.67298993 -2.69548885,25.4333022 3.48891647,38.6957156 C9.67231538,51.9571226 25.4357557,57.6956475 38.6972543,51.5112849 Z" id="Stroke-7" stroke="#BBD1B2" stroke-width="1.35" fill="#FFFFFF"></path>
+        <path d="M20,19 L35,19" id="Stroke-9" stroke="#BBD1B2" stroke-width="1.35"></path>
+        <path d="M20,22 L35,22" id="Stroke-11" stroke="#BBD1B2" stroke-width="1.35"></path>
+        <path d="M20,26 L35,26" id="Stroke-13" stroke="#BBD1B2" stroke-width="1.35"></path>
+        <polygon id="Stroke-15" stroke="#BBD1B2" stroke-width="1.35" points="17 42 37 42 37 14 17 14"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+@mixin container($width: all) {
+  @include clearfix;
+  margin: 0 auto;
+  max-width: $width or 100%;
+}
+
+@mixin span($span, $config: $susy) {
+  width: span($span, $config);
+
+  @if index($span, 'last') {
+    float: right;
+    margin-right: 0;
+  } @else {
+    float: left;
+    margin-right: gutter();
+  }
+}

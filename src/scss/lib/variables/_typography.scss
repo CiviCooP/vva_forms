@@ -1,0 +1,35 @@
+// Font sizes
+$rembase: 16;
+$base-font-size: 16px; // Leave at 16px for correct container width
+$base-font-size-rem: 1rem;
+$base-line-height: 1.625rem; // absolute line-height. For relative line-height (1.385), see http://cssleading.com/
+
+// Font families
+$helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$base-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$heading-font-family: 'AmpleSoft-Regular', Helvetica, Arial, sans-serif;
+$heading-font-family-medium: 'AmpleSoft-Medium', Helvetica, Arial, sans-serif;
+
+$font-size-heading-1: 3.375rem;
+$font-size-heading-2: 2.125rem;
+$font-size-heading-3: 1.5rem;
+$font-size-heading-4: 1.25rem;
+$font-size-heading-5: $base-font-size-rem;
+
+// Vertical Rythm
+$rhythm-unit: 'rem';
+$rem-with-px-fallback: false;
+$round-to-nearest-half-line: true;
+
+@font-face {
+  font-family: 'AmpleSoft-Medium';
+  src: url('../webfonts/37DAEC_0_0.eot');
+  src: url('../webfonts/37DAEC_0_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/37DAEC_0_0.woff2') format('woff2'), url('../webfonts/37DAEC_0_0.woff') format('woff'), url('../webfonts/37DAEC_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'AmpleSoft-Regular';
+  src: url('../webfonts/37DAEC_1_0.eot');
+  src: url('../webfonts/37DAEC_1_0.eot?#iefix') format('embedded-opentype'), url('../webfonts/37DAEC_1_0.woff2') format('woff2'), url('../webfonts/37DAEC_1_0.woff') format('woff'), url('../webfonts/37DAEC_1_0.ttf') format('truetype');
+}

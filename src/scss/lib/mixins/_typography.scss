@@ -1,0 +1,10 @@
+@mixin fontsmoothing($smoothing: antialiased, $uses-text-shadow: false) {
+  -webkit-font-smoothing: $smoothing;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-ligatures: none;
+  text-rendering: optimizeLegibility;
+
+  @if $uses-text-shadow {
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+  }
+}

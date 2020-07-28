@@ -1,0 +1,4 @@
+.container {
+  @include container(1080px);
+  padding: 0 15px;
+}

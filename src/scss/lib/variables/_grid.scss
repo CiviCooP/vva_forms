@@ -1,0 +1,9 @@
+@import "../../bower_components/susy/sass/susy";
+
+// Susy3: http://oddbird.net/2017/06/28/susy3/
+$susy: (
+  'columns': susy-repeat(12),
+  'gutters': .25,
+  'spread': 'narrow',
+  'container-spread': 'narrow',
+);

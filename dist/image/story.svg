@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icoon verhaal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icoon-verhaal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M38.6972543,51.5112849 C51.9587529,45.3269223 57.6953046,29.5645973 51.5108993,16.3031902 C45.3275004,3.04077681 29.5650665,-2.6947289 16.3035679,3.48862731 C3.04206928,9.67298993 -2.69548885,25.4333022 3.48891647,38.6957156 C9.67231538,51.9571226 25.4357557,57.6956475 38.6972543,51.5112849" id="Fill-13" fill="#FEFEFE"></path>
+        <path d="M38.6972543,51.5112849 C51.9587529,45.3269223 57.6953046,29.5645973 51.5108993,16.3031902 C45.3275004,3.04077681 29.5650665,-2.6947289 16.3035679,3.48862731 C3.04206928,9.67298993 -2.69548885,25.4333022 3.48891647,38.6957156 C9.67231538,51.9571226 25.4357557,57.6956475 38.6972543,51.5112849 Z" id="Stroke-14" stroke="#BBD1B2" stroke-width="1.35" fill="#FFFFFF"></path>
+        <g id="Group-9" transform="translate(14.000000, 11.000000)" stroke="#BBD1B2">
+            <path d="M33.2398721,24.8165325 L32.0933243,23.8946755 L29.6586895,26.7732453 L30.8065445,27.6964094 C31.8672537,28.5488402 33.2820651,28.5977871 33.9519256,27.8067069 C34.6232239,27.0128816 34.3032319,25.6688761 33.2397849,24.8165179 L33.2398721,24.8165325 Z" id="Stroke-1"></path>
+            <path d="M31.5514229,23.4592372 L19.6218942,13.8746557 C19.6218942,13.8746557 15.9304723,12.220266 15.0739746,12.5225166 C15.0195085,12.9977369 17.195393,16.7572197 17.195393,16.7572197 L29.119112,26.3374439 L30.2125009,25.0439103 L31.5514229,23.4592372 Z" id="Stroke-2" stroke-linejoin="round"></path>
+            <polyline id="Stroke-3" stroke-linejoin="round" points="26.9900684 24.6277166 26.9900684 27.5171797 0.897901119 33.7017692 0.897901119 0.295167901 26.9900684 0.295167901 26.9900684 19.7954841"></polyline>
+            <polyline id="Stroke-4" stroke-linejoin="round" points="1.53130521 32.801263 16.4521123 21.7381084 26.9902137 27.5169618"></polyline>
+            <path d="M5.75787472,4.74047255 L20.956822,4.74047255" id="Stroke-5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.75787472,9.5892628 L20.956822,9.5892628" id="Stroke-6" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.75787472,14.4752352 L15.5959051,14.4752352" id="Stroke-7" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.75787472,19.359029 L18.6895797,19.359029" id="Stroke-8" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

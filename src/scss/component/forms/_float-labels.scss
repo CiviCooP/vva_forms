@@ -1,0 +1,41 @@
+.webform-submission-form {
+  .js-form-item.js-form-type-textfield,
+  .js-form-item.js-form-type-email {
+    @extend %pos-relative;
+    margin-top: 15px;
+
+    label {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      transition: .2s;
+      font-size: 100%;
+      color: $black;
+    }
+
+    &.focused {
+      label {
+        top: -20px;
+        left: 0;
+        transition: .2s;
+        font-size: 90%;
+        color: $green-medium;
+      }
+    }
+  }
+}
+
+.no-js {
+  .webform-submission-form {
+    .js-form-item.js-form-type-textfield,
+    .js-form-item.js-form-type-email {
+      @extend %pos-relative;
+
+      label {
+        @extend %pos-relative;
+        font-size: 90%;
+        color: $green-medium;
+      }
+    }
+  }
+}

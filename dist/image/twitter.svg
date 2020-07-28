@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>twitter</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-391.000000, -259.000000)">
+            <g id="twitter" transform="translate(391.500000, 259.644531)">
+                <g id="mail-copy-2" stroke-width="1" fill-rule="evenodd" transform="translate(0.000000, 0.160156)" fill="#FFFFFF">
+                    <path d="M35.5634474,47.4919993 C48.0742952,41.657695 53.4861364,26.787577 47.6517918,14.2768157 C41.8183966,1.76510489 26.9481759,-3.64574955 14.4373282,2.18760537 C1.92648046,8.02190972 -3.48631024,22.8901288 2.34803441,35.4018396 C8.18142961,47.9126009 23.0525997,53.3263037 35.5634474,47.4919993 Z" id="Stroke-1"></path>
+                </g>
+                <text font-family="SSSocialRegular, SS Social" font-size="26" font-weight="normal" fill="#264F9A">
+                    <tspan x="13" y="37.8007812">twitter</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

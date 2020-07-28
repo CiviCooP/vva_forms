@@ -1,0 +1,14 @@
+{
+  "name": "vva_custom",
+  "version": "1.0.0",
+  "description": "bower.json for 3SIGNs Drupal 8 base theme.",
+  "authors": [
+    "3SIGN"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "susy": "^3.0.3",
+    "gulp": "^4.0.0"
+  }
+}

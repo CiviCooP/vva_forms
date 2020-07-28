@@ -1,0 +1,14 @@
+{
+  "name": "susy",
+  "homepage": "https://github.com/ericam/susy",
+  "version": "3.0.3",
+  "_release": "3.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.0.3",
+    "commit": "89094d103cccedca84739537d9aad4840a63778b"
+  },
+  "_source": "https://github.com/ericam/susy.git",
+  "_target": "^3.0.3",
+  "_originalSource": "susy"
+}

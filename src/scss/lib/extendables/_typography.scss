@@ -1,0 +1,54 @@
+%typ-hide {
+  border: 0;
+  background-color: transparent;
+  color: transparent;
+  font: 0 / 0 a;
+  text-shadow: none;
+}
+
+%typ-overflow {
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+%typ-center {
+  text-align: center;
+}
+
+%typ-underline {
+  text-decoration: underline;
+}
+
+%typ-no-underline {
+  text-decoration: none;
+}
+
+%typ-uppercase {
+  text-transform: uppercase;
+}
+
+%typ-lowercase {
+  text-transform: lowercase;
+}
+
+%typ-italic {
+  font-style: italic;
+}
+
+%typ-bold {
+  font-weight: 700;
+}
+
+%typ-normal {
+  font-weight: 400;
+}
+
+%title-roboto {
+  text-transform: uppercase;
+  font-family: $base-font-family;
+  font-size: $font-size-heading-4;
+  color: $green-medium;
+  font-weight: normal;
+}

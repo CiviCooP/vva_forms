@@ -1,0 +1,19 @@
+%flex {
+  display: flex;
+}
+
+%flex-wrapper {
+  flex-flow: row wrap;
+}
+
+%flex-stretch {
+  @extend %flex;
+  @extend %flex-wrapper;
+  align-items: stretch;
+}
+
+%flex-center {
+  @extend %flex;
+  @extend %flex-wrapper;
+  align-items: center;
+}

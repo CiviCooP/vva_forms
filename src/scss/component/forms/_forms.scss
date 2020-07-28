@@ -1,0 +1,177 @@
+> .js-form-item {
+  margin-bottom: 30px;
+
+  > label {
+    @extend %inline-block;
+    font-size: 90%;
+    color: lighten($primary-color, 35%);
+
+    &.form-required::after {
+      content: "*";
+    }
+  }
+}
+fieldset {
+  padding: 0;
+  margin: 0 0 35px 0;
+  border: 0;
+}
+
+.form-item {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 90%;
+  color: $green-medium;
+  width: 100%;
+  display: inline-block;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.fieldset-legend {
+  @extend %inline-block;
+  @extend %typ-bold;
+  font-family: $heading-font-family;
+  margin-bottom: 5px;
+  color: #264f9a;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+input[type="password"] {
+  @extend %width-100;
+  max-width: 100%;
+  background-color: transparent;
+  border: 1px solid $green-medium;
+  transition: border-bottom .3s;
+  padding: 10px;
+}
+
+textarea {
+  @extend %width-100;
+  border: 1px solid $green-dark;
+  transition: border .3s;
+
+  &:focus {
+    border: 2px solid $green-medium;
+    transition: border .3s;
+  }
+}
+
+.js-form-type-checkbox {
+  label {
+    @extend %inline;
+  }
+
+  a {
+    text-decoration-style: dashed;
+    color: $link-color;
+  }
+}
+
+.js-form-type-radio,
+.js-form-type-checkbox {
+  @extend %pos-relative;
+  padding: 3px 0;
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    @extend %pos-relative;
+    z-index: 10;
+    opacity: 0;
+    vertical-align: middle;
+
+    &,
+    & + label::before,
+    &:checked + label::before {
+      width: 18px;
+      height: 18px;
+    }
+
+    &,
+    & + label {
+      cursor: pointer;
+    }
+
+    & + label::before,
+    &:checked + label::before {
+      @extend %pos-absolute;
+      @extend %inline-block;
+      border: 2px solid $primary-color;
+      content: ' ';
+      border-radius: 5px;
+      left: -23px;
+      top: 0;
+    }
+
+    &:checked + label::before {
+      background-color: $primary-color;
+    }
+  }
+
+  input[type="radio"] {
+    & + label::before,
+    &:checked + label::before {
+      top: 6px;
+      left: 0;
+      border-radius: 100%;
+    }
+  }
+}
+
+
+@media screen and (min-width: $tablet-portrait-768) {
+  .js-form-item-voornaam,
+  .js-form-item-e-mailadres,
+  .js-form-item-gemeente {
+    @include span(6 of 12);
+  }
+
+  .js-form-item-achternaam,
+  .js-form-item-telefoonnumer,
+  .js-form-item-postcode {
+    @include span(last 6 of 12);
+  }
+
+  .js-form-item-straat-huisnummer,
+  .webform-actions,
+  .js-form-item-verbondenheid-met-een-organisatie-werkgever-vrijwilligersorganis {
+    @include span(12 of 12);
+  }
+
+  .webform-checkboxes-other--wrapper {
+    @include span(12 of 12);
+  }
+}
+
+.js-form-item-telefoonnumer {
+  @extend %pos-relative;
+  margin-top: 15px;
+
+  label {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    transition: .2s;
+    font-size: 90%;
+    color: $green-medium;
+  }
+
+  .intl-tel-input {
+    width: 100%;
+  }
+}
+
+
+.g-recaptcha {
+  @extend %inline-block;
+  margin: 20px 0;
+}
+

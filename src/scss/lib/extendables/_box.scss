@@ -1,0 +1,40 @@
+%pos-absolute {
+  position: absolute;
+}
+
+%pos-relative {
+  position: relative;
+}
+
+%el-before,
+%el-after {
+  position: absolute;
+  display: block;
+  content: '';
+}
+
+%block {
+  display: block;
+}
+
+%inline-block {
+  display: inline-block;
+}
+
+%inline-block--middle {
+  @extend %inline-block;
+  vertical-align: middle;
+}
+
+%inline-block--top {
+  @extend %inline-block;
+  vertical-align: top;
+}
+
+%inline {
+  display: inline;
+}
+
+%width-100 {
+  width: 100%;
+}
